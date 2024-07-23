@@ -1,0 +1,44 @@
+@import "../../resourses/styles/mixins";
+@import "../../resourses/styles/variables";
+
+@media (min-width: 390px) {
+
+	.trading {
+		text-align: left;
+
+		.trading__title {
+			@include title-style-section;
+		}
+
+		.trading__first-h3 {
+			padding: 20px;
+		}
+
+		.trading__text {
+			@include text-style-section;
+			padding-bottom: 30px;
+		}
+	}
+}
+
+
+@media (min-width: 1440px) {
+
+	.trading {
+		padding: 0 192px;
+
+		.trading__title.trading__first-h3 {
+			margin-top: 40px;
+
+			font-size: $font-size-title;
+		}
+
+		.trading__title {
+			font-size: $font-size-xlarge;
+		}
+
+		.trading__text {
+			font-size: $font-size-xlarge;
+		}
+	}
+}

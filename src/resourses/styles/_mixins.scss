@@ -1,0 +1,101 @@
+@import "./variables";
+
+//Mixins for titles with different styles
+@mixin title-style-primary {
+	color: $color-Light-gray;             // color: #CCCCCC,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-large;          // font-size: 20px
+	font-weight: $font-weight-bold;       // font-weight: bold
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+@mixin title-style-secondary {
+	color: $color-Light-gray;             // color: #CCCCCC,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-xlarge;         // font-size: 24px
+	font-weight: $font-weight-bold;       // font-weight: bold
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+@mixin title-style-subsection {
+	color: $color-amber;                  // color: #FFA903
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle;       // font-size: 18px
+	font-weight: $font-weight-normal;     // font-weight: normal;
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+@mixin title-style-section {
+	color: $color-Light-gray;             // color: #CCCCCC,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle; 	    // font-size: 18px
+	font-weight: $font-weight-bold;       // font-weight: bold
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+
+
+
+
+
+//Mixins for paragraphs with different styles
+@mixin text-style-primary {
+	color: $color-neutral-gray;           // color: #A2A2A2
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle;       // font-size: 18px
+	font-weight: $font-weight-normal;     // font-weight: normal;
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+@mixin text-style-subsection {
+	color: $color-Light-gray;             // color: #CCCCCC,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle;       // font-size: 18px
+	font-weight: $font-weight-normal;     // font-weight: normal;
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+@mixin text-style-section {
+	color: $color-neutral-gray;           // color: #A2A2A2,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle; 	    // font-size: 18px
+	font-weight: $font-weight-normal;     // font-weight: normal
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+
+
+
+//Mixins for MAIL and APP text with different styles
+@mixin text-style-mail-app {
+	color: $color-mint-green;           // color: #4FB29E,
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-subtitle; 	    // font-size: 18px
+	font-weight: $font-weight-normal;     // font-weight: normal
+	line-height: $line-height-normal;     // line-height: 140%
+}
+
+
+
+//Buttons 'btn-location-and-ip-address' style
+@mixin btn-location-and-ip-address {
+	width: 248px;
+	height: 48px;
+	color: black;
+	background-color: $color-amber;       // color: #FFA903
+	border-radius: 10px;
+	margin: 0 auto;
+	cursor: pointer;
+
+	font-family: $font-family-primary;    // font-family: 'Nunito, sans-serif'
+	font-size: $font-size-xlarge;         // font-size: 24px
+	font-weight: $font-weight-bold;       // font-weight: bold
+}

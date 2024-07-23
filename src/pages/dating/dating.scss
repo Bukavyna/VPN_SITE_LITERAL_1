@@ -1,0 +1,52 @@
+@import "../../resourses/styles/mixins";
+@import "../../resourses/styles/variables";
+
+@media (min-width: 390px) {
+
+	.dating {
+		text-align: left;
+
+		.dating__title {
+			@include title-style-section;
+		}
+
+		.dating__first-h3 {
+			padding: 20px;
+		}
+
+		.dating__text {
+			@include text-style-section;
+			padding-bottom: 30px;
+		}
+
+		.dating__span {
+			@include title-style-section;
+		}
+	}
+}
+
+
+@media (min-width: 1440px) {
+
+	.dating {
+		padding: 0 192px;
+
+		.dating__title.dating__first-h3 {
+			margin-top: 40px;
+
+			font-size: $font-size-title;
+		}
+
+		.dating__title {
+			font-size: $font-size-xlarge;
+		}
+
+		.dating__text {
+			font-size: $font-size-xlarge;
+		}
+
+		.dating__text.dating__span {
+			font-size: $font-size-xlarge;
+		}
+	}
+}

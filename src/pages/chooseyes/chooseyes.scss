@@ -1,0 +1,52 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.chooseyes {
+	.coro {
+		display: none;
+	}
+
+	&__title {
+		@include title-style-section;
+		margin-top: 20px;
+	}
+
+	&__text {
+		@include text-style-primary;
+	}
+
+	.testBtnBack {
+		position: relative;
+		left: 190px;
+	}
+
+	@media (min-width: 1440px) {
+    padding: 0 192px;
+
+		.coro {
+			display: flex;
+			margin-left: -75px;
+		}
+
+		&__title {
+			font-size: $font-size-xlarge;
+			margin-top: 20px;
+		}
+
+		&__text.chooseyes__text-top {
+			margin: 30px 0;
+		}
+
+		&__text {
+			font-size: $font-size-xlarge;
+		}
+
+		.testBtnBack {
+		display: none;
+		}
+
+		.fairOaksDesign {
+			display: none;
+		}
+	}
+}

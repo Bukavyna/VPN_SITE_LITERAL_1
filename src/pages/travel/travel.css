@@ -1,0 +1,40 @@
+@media (min-width: 390px) {
+  .travel {
+    text-align: left;
+  }
+  .travel .travel__title {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+  .travel .travel__first-h3 {
+    padding: 20px;
+  }
+  .travel .travel__text {
+    color: #A2A2A2;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .travel {
+    padding: 0 192px;
+  }
+  .travel .travel__title.travel__first-h3 {
+    margin-top: 40px;
+    font-size: 44px;
+  }
+  .travel .travel__title {
+    font-size: 24px;
+  }
+  .travel .travel__text {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=travel.css.map */

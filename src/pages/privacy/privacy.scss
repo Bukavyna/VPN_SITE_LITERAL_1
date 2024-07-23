@@ -1,0 +1,49 @@
+@import "../../resourses/styles/mixins";
+@import "../../resourses/styles/variables";
+
+@media (min-width: 390px) {
+
+	.privacy {
+		text-align: left;
+		padding: 30px 30px 0;
+
+		.privacy__title {
+			@include title-style-section;
+		}
+
+		.privacy__text {
+			@include text-style-subsection;
+			padding-bottom: 30px;
+		}
+
+		.mail-app-text {
+			@include text-style-mail-app
+		}
+	}
+}
+
+
+@media (min-width: 1440px) {
+
+	.privacy {
+		padding: 0 192px;
+
+		.privacy__title.privacy__first-h3 {
+			margin-bottom: 40px;
+
+			font-size: $font-size-title;
+		}
+
+		.privacy__title {
+			font-size: $font-size-xlarge;
+		}
+
+		.privacy__text {
+			font-size: $font-size-xlarge;
+		}
+
+		.privacy__span {
+			font-size: $font-size-xlarge;
+		}
+	}
+}

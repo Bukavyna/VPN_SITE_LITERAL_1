@@ -1,0 +1,49 @@
+.chooseyes .coro {
+  display: none;
+}
+.chooseyes__title {
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-top: 20px;
+}
+.chooseyes__text {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+}
+.chooseyes .testBtnBack {
+  position: relative;
+  left: 190px;
+}
+@media (min-width: 1440px) {
+  .chooseyes {
+    padding: 0 192px;
+  }
+  .chooseyes .coro {
+    display: flex;
+    margin-left: -75px;
+  }
+  .chooseyes__title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .chooseyes__text.chooseyes__text-top {
+    margin: 30px 0;
+  }
+  .chooseyes__text {
+    font-size: 24px;
+  }
+  .chooseyes .testBtnBack {
+    display: none;
+  }
+  .chooseyes .fairOaksDesign {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=chooseyes.css.map */

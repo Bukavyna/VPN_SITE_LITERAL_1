@@ -1,0 +1,44 @@
+@import "../../resourses/styles/mixins";
+@import "../../resourses/styles/variables";
+
+@media (min-width: 390px) {
+
+	.travel {
+		text-align: left;
+
+		.travel__title {
+			@include title-style-section;
+		}
+
+		.travel__first-h3 {
+			padding: 20px;
+		}
+
+		.travel__text {
+			@include text-style-section;
+			padding-bottom: 30px;
+		}
+	}
+}
+
+
+@media (min-width: 1440px) {
+
+	.travel {
+		padding: 0 192px;
+
+		.travel__title.travel__first-h3 {
+			margin-top: 40px;
+
+			font-size: $font-size-title;
+		}
+
+		.travel__title {
+			font-size: $font-size-xlarge;
+		}
+
+		.travel__text {
+			font-size: $font-size-xlarge;
+		}
+	}
+}

@@ -1,0 +1,58 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.cyberthreats {
+	&__title {
+		 padding: 20px 0 0;
+		 @include title-style-section;
+	}
+
+	&__title.cyberthreats__first-title {
+		padding: 20px 0;
+	}
+
+	&__text {
+		 @include text-style-section;
+		 margin-bottom: 20px;
+	}
+
+	ul {
+		@include text-style-section;
+		margin-bottom: 20px;
+
+		list-style-position: inside;
+		list-style-type: '-';
+	}
+
+	li {
+		margin-bottom: 20px;
+	}
+
+	.cyberthreats__span {
+		@include title-style-section;
+	}
+}
+
+@media (min-width: 1440px) {
+	.cyberthreats {
+		padding: 0 192px 40px;
+
+		&__title.cyberthreats__first-title {
+			padding: 20px 0 40px;
+			font-size: $font-size-title;
+		}
+
+		&__title {
+			font-size: $font-size-xlarge;
+		}
+
+		&__text {
+			margin-bottom: 20px;
+			font-size: $font-size-xlarge;
+		}
+
+		li, .cyberthreats__span {
+			font-size: $font-size-xlarge;
+		}
+	}
+}

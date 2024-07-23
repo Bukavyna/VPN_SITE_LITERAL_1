@@ -1,0 +1,58 @@
+.fairOaksDesign {
+	width: 100%;
+	background: linear-gradient(to bottom, #59544F, #59544F);
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+
+	font-family: Roboto, sans-serif;
+}
+
+.fairOaksDesign__links-box {
+	background: linear-gradient(to bottom, #827E7B, #59544F);
+}
+
+.fairOaksDesign__img-div {
+	width: 100%;
+	height: 204px;
+}
+
+.fairOaksDesign__img-div img {
+	position: relative;
+}
+
+.fairOaksDesign {
+	width: 390px;
+	margin-top: 20px;
+	margin-left: -25px;
+}
+
+.fairOaksDesign__links {
+	width: 330px;
+	height: 540px;
+	background-color: #F7F6F6;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.fairOaksDesign__link-one {
+	color: #333333;
+	font-size: 30px;
+	font-weight: 500;
+}
+.fairOaksDesign__link-two {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.fairOaksDesign__links p {
+	color: #000000;
+
+	font-family: Roboto, sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}

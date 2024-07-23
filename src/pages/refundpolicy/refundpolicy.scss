@@ -1,0 +1,70 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.refundpolicy {
+	&__title {
+		padding-top: 20px;
+
+		@include title-style-section;
+	}
+
+	&__text {
+		@include text-style-subsection;
+
+		margin-bottom: 20px;
+
+		.mail-app-text {
+			@include text-style-mail-app;
+		}
+	}
+
+	&__cashback-img {
+		width: 330px;
+		height: 330px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.refundpolicy {
+		padding: 0 192px;
+
+		&__title.refundpolicy__title-first {
+			padding: 20px 0;
+
+			font-size: $font-size-title;
+		}
+
+		&__title {
+			font-size: $font-size-xlarge;
+		}
+
+		&__text {
+			font-size: $font-size-xlarge;
+
+			margin-bottom: 20px;
+
+			.mail-app-text {
+				font-size: $font-size-xlarge;
+			}
+		}
+
+		&__cashback-bloc {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-between;
+			width: 1056px;
+			margin: 100px 0 200px;
+
+			.refundpolicy__cashback-img {
+				width: 374px;
+				height: 374px;
+			}
+
+			.refundpolicy__cashback-text-box {
+				width: 526px;
+			}
+		}
+
+
+	}
+}

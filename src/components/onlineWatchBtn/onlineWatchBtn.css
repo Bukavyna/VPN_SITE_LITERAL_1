@@ -1,0 +1,30 @@
+.online-watch-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 152px;
+	height: 36px;
+	color: white;
+	background: linear-gradient(to bottom, #8285A5, #171528);
+	border-radius: 7px;
+	padding: 10px;
+	cursor: pointer;
+
+	font-family: Nunito, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.online-watch-btn:hover {
+	box-shadow: 0 0 20px 5px #8285A5;
+}
+
+.online-watch-btn__18 {
+	width: 32px;
+	height: 16px;
+	color: black;
+	background-color: #FBB03B;
+	border-radius: 3px;
+	padding: 2px;
+
+	font-size: 10px;
+}

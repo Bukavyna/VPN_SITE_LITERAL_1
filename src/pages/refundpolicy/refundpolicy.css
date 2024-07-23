@@ -1,0 +1,63 @@
+.refundpolicy__title {
+  padding-top: 20px;
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+}
+.refundpolicy__text {
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.refundpolicy__text .mail-app-text {
+  color: #4FB29E;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+}
+.refundpolicy__cashback-img {
+  width: 330px;
+  height: 330px;
+}
+
+@media (min-width: 1440px) {
+  .refundpolicy {
+    padding: 0 192px;
+  }
+  .refundpolicy__title.refundpolicy__title-first {
+    padding: 20px 0;
+    font-size: 44px;
+  }
+  .refundpolicy__title {
+    font-size: 24px;
+  }
+  .refundpolicy__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .refundpolicy__text .mail-app-text {
+    font-size: 24px;
+  }
+  .refundpolicy__cashback-bloc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 1056px;
+    margin: 100px 0 200px;
+  }
+  .refundpolicy__cashback-bloc .refundpolicy__cashback-img {
+    width: 374px;
+    height: 374px;
+  }
+  .refundpolicy__cashback-bloc .refundpolicy__cashback-text-box {
+    width: 526px;
+  }
+}
+
+/*# sourceMappingURL=refundpolicy.css.map */

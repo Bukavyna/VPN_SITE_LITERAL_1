@@ -1,0 +1,40 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.chooseno {
+	.coro {
+		display: none;
+	}
+
+	&__text {
+		@include text-style-primary;
+		margin-top: 20px;
+	}
+
+	.testBtnBack {
+		position: relative;
+		left: 190px;
+	}
+
+	@media (min-width: 1440px) {
+		padding: 0 192px;
+
+		.coro {
+			display: flex;
+			margin-left: -75px;
+		}
+
+		&__text {
+			font-size: $font-size-xlarge;
+			margin-top: 20px;
+		}
+
+		.testBtnBack {
+			display: none;
+		}
+
+		.fairOaksDesign {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,61 @@
+.connected-status-block {
+	background-color: #3E3E48;
+	padding: 0 25px;
+}
+
+.connected-status__box {
+	height: 323px;
+	text-align: center;
+	padding: 0 0 20px;
+
+	font-family: Nunito, sans-serif;
+}
+
+h3 {
+	color: #FFA903;
+
+	font-family: Montserrat, sans-serif;
+	font-size: 24px;
+}
+
+.connected-status-box__ip-address-text {
+	color: #A2A2A2;
+	margin-top: 5px;
+
+	font-size: 16px;
+}
+
+.connected-status-box__ip-address {
+	color: #FFFFFF;
+	margin-top: 5px;
+
+	font-size: 32px;
+}
+
+.connected-status-box__location {
+	color: #FFFFFF;
+	margin-top: 5px;
+
+	font-size: 12px;
+}
+
+.connected-status-box__location-correct {
+	color: #A2A2A2;
+	margin-top: 20px;
+
+	font-size: 24px;
+}
+
+.connected-status-block__box-btn-yes-no {
+	width: 136px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 0;
+}
+
+.connected-status-block__box-btn-online {
+	width: 328px;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px auto 0;
+}

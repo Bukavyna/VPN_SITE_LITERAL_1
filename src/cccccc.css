@@ -1,0 +1,65 @@
+/*@import "../../resourses/styles/variables";*/
+/*@import "../../resourses/styles/mixins";*/
+
+
+/*vulnerabilitydisclosure__title vulnerabilitydisclosure__first-title*/
+
+
+/*.cyberthreats {*/
+
+/*&__title {*/
+/*	 padding-top: 20px;*/
+
+/*	 @include title-style-section;*/
+/* }*/
+
+/*&__text {*/
+/*	 @include text-style-subsection;*/
+/*	 margin-bottom: 20px;*/
+
+/*.mail-app-text {*/
+/*	@include text-style-mail-app;*/
+/*}*/
+/*}*/
+
+/*ul, ol {*/
+/*	list-style-position: inside;*/
+/*}*/
+
+/*.none-bottom-margin {*/
+/*	margin-bottom: 0;*/
+/*}*/
+/*}*/
+
+/*@media (min-width: 1440px) {*/
+/*	.vulnerabilitydisclosure {*/
+/*		padding: 0 192px 40px;*/
+
+/*&__title.cyberthreats__first-title {*/
+/*	 padding: 20px 0 40px;*/
+
+/*	 font-size: $font-size-title;*/
+/* }*/
+
+/*&__title {*/
+/*	 font-size: $font-size-xlarge;*/
+/* }*/
+
+/*&__text {*/
+/*	 margin-bottom: 20px;*/
+/*	 font-size: $font-size-xlarge;*/
+
+/*	.mail-app-text {*/
+/*		font-size: $font-size-xlarge;*/
+/*	}*/
+/*}*/
+
+/*li {*/
+/*	margin-bottom: 20px;*/
+/*}*/
+
+/*ol li, .none-bottom-margin-li {*/
+/*	margin-bottom: 0;*/
+/*}*/
+/*}*/
+/*}*/

@@ -1,0 +1,40 @@
+@media (min-width: 390px) {
+  .trading {
+    text-align: left;
+  }
+  .trading .trading__title {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+  .trading .trading__first-h3 {
+    padding: 20px;
+  }
+  .trading .trading__text {
+    color: #A2A2A2;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .trading {
+    padding: 0 192px;
+  }
+  .trading .trading__title.trading__first-h3 {
+    margin-top: 40px;
+    font-size: 44px;
+  }
+  .trading .trading__title {
+    font-size: 24px;
+  }
+  .trading .trading__text {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=trading.css.map */

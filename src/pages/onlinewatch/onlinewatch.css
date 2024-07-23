@@ -1,0 +1,57 @@
+.onlinewatch {
+  padding-top: 0;
+}
+.onlinewatch__title {
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 140%;
+}
+.onlinewatch__text {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.onlinewatch .testBtnBack {
+  top: -63px;
+  left: 180px;
+}
+.onlinewatch .onlinechat__coro-img {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .onlinewatch {
+    padding: 0 192px 40px;
+  }
+  .onlinewatch__title.onlinewatch__first-title {
+    padding: 20px 0 40px;
+    font-size: 28px;
+  }
+  .onlinewatch br {
+    display: none;
+  }
+  .onlinewatch__title {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .onlinewatch__text {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .onlinewatch__text .mail-app-text {
+    font-size: 24px;
+  }
+  .onlinewatch .testBtnBack {
+    display: none;
+  }
+  .onlinewatch .fairOaksDesign {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=onlinewatch.css.map */

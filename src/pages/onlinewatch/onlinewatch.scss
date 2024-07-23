@@ -1,0 +1,66 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.onlinewatch {
+	padding-top: 0;
+
+	&__title.onlinewatch__first-title {
+
+	}
+
+	&__title {
+		@include title-style-secondary;
+	}
+
+	&__text {
+		@include text-style-primary;
+		margin-bottom: 20px;
+	}
+
+	.testBtnBack {
+		top: -63px;
+		left: 180px;
+	}
+
+	.onlinechat__coro-img {
+		display: none;
+	}
+}
+
+@media (min-width: 1440px) {
+	.onlinewatch {
+		padding: 0 192px 40px;
+
+		&__title.onlinewatch__first-title {
+			padding: 20px 0 40px;
+
+			font-size: $font-size-xxlarge;
+		}
+
+		br {
+			display: none;
+		}
+
+		&__title {
+			font-size: $font-size-xxlarge;
+			margin-top: 10px;
+		}
+
+		&__text {
+			margin-bottom: 20px;
+			font-size: $font-size-xlarge;
+
+			.mail-app-text {
+				font-size: $font-size-xlarge;
+			}
+		}
+
+		.testBtnBack {
+			display: none;
+		}
+
+		.fairOaksDesign {
+			display: none;
+		}
+	}
+}

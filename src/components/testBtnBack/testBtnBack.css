@@ -1,0 +1,8 @@
+.testBtnBack {
+	position: relative;
+	left: 95px;
+	width: 151px;
+	height: 32px;
+	background-color: #E38A8A;
+	border-radius: 5px;
+}

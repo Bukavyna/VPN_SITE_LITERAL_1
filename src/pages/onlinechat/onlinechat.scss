@@ -1,0 +1,69 @@
+@import "../../resourses/styles/variables";
+@import "../../resourses/styles/mixins";
+
+.onlinechat {
+	padding-top: 0;
+
+	&__title.onlinechat__first-title {
+
+	}
+
+	&__title {
+		@include title-style-secondary;
+	}
+
+	&__text {
+		@include text-style-primary;
+		margin-bottom: 20px;
+	}
+
+	.testBtnBack {
+		top: -30px;
+		left: 180px;
+	}
+
+	.onlinechat__coro-img {
+		display: none;
+	}
+}
+
+@media (min-width: 1440px) {
+	.onlinechat {
+		padding: 0 192px 40px;
+
+		&__title.onlinechat__first-title {
+			padding: 20px 0 40px;
+
+			font-size: $font-size-xxlarge;
+		}
+
+		&__title {
+			font-size: $font-size-xxlarge;
+			margin-top: 10px;
+		}
+
+		&__text {
+			margin-bottom: 20px;
+			font-size: $font-size-xlarge;
+
+			.mail-app-text {
+				font-size: $font-size-xlarge;
+			}
+		}
+
+		.testBtnBack {
+			display: none;
+		}
+
+		.onlinechat__coro-img {
+			display: flex;
+			width: 1200px;
+			height: 280px;
+			margin: 0 -72px 30px;
+		}
+
+		.fairOaksDesign {
+			display: none;
+		}
+	}
+}

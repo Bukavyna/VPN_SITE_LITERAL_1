@@ -1,0 +1,50 @@
+@media (min-width: 390px) {
+  .dating {
+    text-align: left;
+  }
+  .dating .dating__title {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+  .dating .dating__first-h3 {
+    padding: 20px;
+  }
+  .dating .dating__text {
+    color: #A2A2A2;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+    padding-bottom: 30px;
+  }
+  .dating .dating__span {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+}
+@media (min-width: 1440px) {
+  .dating {
+    padding: 0 192px;
+  }
+  .dating .dating__title.dating__first-h3 {
+    margin-top: 40px;
+    font-size: 44px;
+  }
+  .dating .dating__title {
+    font-size: 24px;
+  }
+  .dating .dating__text {
+    font-size: 24px;
+  }
+  .dating .dating__text.dating__span {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=dating.css.map */

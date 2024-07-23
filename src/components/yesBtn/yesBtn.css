@@ -1,0 +1,17 @@
+.yes-btn {
+	width: 48px;
+	height: 40px;
+	color: #FFA903;
+	background-color: transparent;
+	border: 2px solid #FFA903;
+	border-radius: 10px;
+	cursor: pointer;
+
+	font-family: Nunito.sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.yes-btn:hover {
+	box-shadow: 0 0 20px 5px #8285A5;
+}

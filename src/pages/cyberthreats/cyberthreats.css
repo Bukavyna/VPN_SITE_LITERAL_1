@@ -1,0 +1,61 @@
+.cyberthreats__title {
+  padding: 20px 0 0;
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+}
+.cyberthreats__title.cyberthreats__first-title {
+  padding: 20px 0;
+}
+.cyberthreats__text {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.cyberthreats ul {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 20px;
+  list-style-position: inside;
+  list-style-type: "-";
+}
+.cyberthreats li {
+  margin-bottom: 20px;
+}
+.cyberthreats .cyberthreats__span {
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+@media (min-width: 1440px) {
+  .cyberthreats {
+    padding: 0 192px 40px;
+  }
+  .cyberthreats__title.cyberthreats__first-title {
+    padding: 20px 0 40px;
+    font-size: 44px;
+  }
+  .cyberthreats__title {
+    font-size: 24px;
+  }
+  .cyberthreats__text {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .cyberthreats li, .cyberthreats .cyberthreats__span {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=cyberthreats.css.map */

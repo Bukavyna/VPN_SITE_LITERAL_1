@@ -1,0 +1,48 @@
+@media (min-width: 390px) {
+  .privacy {
+    text-align: left;
+    padding: 30px 30px 0;
+  }
+  .privacy .privacy__title {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+  .privacy .privacy__text {
+    color: #CCCCCC;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+    padding-bottom: 30px;
+  }
+  .privacy .mail-app-text {
+    color: #4FB29E;
+    font-family: "Nunito, sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+  }
+}
+@media (min-width: 1440px) {
+  .privacy {
+    padding: 0 192px;
+  }
+  .privacy .privacy__title.privacy__first-h3 {
+    margin-bottom: 40px;
+    font-size: 44px;
+  }
+  .privacy .privacy__title {
+    font-size: 24px;
+  }
+  .privacy .privacy__text {
+    font-size: 24px;
+  }
+  .privacy .privacy__span {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=privacy.css.map */

@@ -1,0 +1,36 @@
+.chooseno .coro {
+  display: none;
+}
+.chooseno__text {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-top: 20px;
+}
+.chooseno .testBtnBack {
+  position: relative;
+  left: 190px;
+}
+@media (min-width: 1440px) {
+  .chooseno {
+    padding: 0 192px;
+  }
+  .chooseno .coro {
+    display: flex;
+    margin-left: -75px;
+  }
+  .chooseno__text {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .chooseno .testBtnBack {
+    display: none;
+  }
+  .chooseno .fairOaksDesign {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=chooseno.css.map */

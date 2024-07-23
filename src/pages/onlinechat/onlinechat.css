@@ -1,0 +1,60 @@
+.onlinechat {
+  padding-top: 0;
+}
+.onlinechat__title {
+  color: #CCCCCC;
+  font-family: "Nunito, sans-serif";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 140%;
+}
+.onlinechat__text {
+  color: #A2A2A2;
+  font-family: "Nunito, sans-serif";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.onlinechat .testBtnBack {
+  top: -30px;
+  left: 180px;
+}
+.onlinechat .onlinechat__coro-img {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .onlinechat {
+    padding: 0 192px 40px;
+  }
+  .onlinechat__title.onlinechat__first-title {
+    padding: 20px 0 40px;
+    font-size: 28px;
+  }
+  .onlinechat__title {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .onlinechat__text {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .onlinechat__text .mail-app-text {
+    font-size: 24px;
+  }
+  .onlinechat .testBtnBack {
+    display: none;
+  }
+  .onlinechat .onlinechat__coro-img {
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    margin: 0 -72px 30px;
+  }
+  .onlinechat .fairOaksDesign {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=onlinechat.css.map */
